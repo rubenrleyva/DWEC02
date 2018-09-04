@@ -1,0 +1,81 @@
+/* 
+    Created on : 05-nov-2017, 20:29:49
+    Author     : rubenrleyva
+*/
+
+@charset "utf-8";
+
+body {
+font-family : sans-serif;
+text-align : center;
+margin : 0;
+padding : 0;
+background : #97BF85;
+}
+
+#encabezado {
+width : 900px;
+height : 100px;
+margin : 0 auto;
+background : #32402C;
+border-radius : 15px;
+}
+
+#global {
+width : 900px;
+height : auto;
+margin : 0 auto;
+margin-top : 15px;
+margin-bottom : 15px;
+border-radius : 10px;
+background : #C9FFB2;
+text-align : left;
+}
+
+#contenido {
+width : 850px;
+height : auto;
+margin : 0 auto;
+background : #C9FFB2;
+text-align : justify;
+}
+
+#contenidoResultado {
+width : 600px;
+height : auto;
+margin : 0 auto;
+background : #01DFD7;
+border-radius : 15px;
+text-align : center;
+}
+
+#pie {
+width : 900px;
+height : 50px;
+margin : 0 auto;
+background : #32402C;
+border-radius : 15px;
+}
+
+#botonCancelar {
+    text-align : center;
+}
+
+ul {
+list-style-type : none;
+margin : 0;
+text-align : center;
+}
+
+li {
+display : inline-block;
+}
+
+li a {
+text-decoration : none;
+color : black;
+display : block;
+padding : 8px;
+background : #C9FFB2;
+border-radius : 10px;
+}
